@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load static %}
+
+<head>
+	<link rel="stylesheet" href="{% static 'authStyle.css' %}">
+</head>
+<!--{% block title %}
+О нас
+{% endblock %}
+-->
+<!-- {% block content %} -->
+<body>
+    <h1>О нас</h1>
+    <p class="discription">Рассказываем о нашем WEB приложении</p>
+    <a class ="name" href="{% url 'home' %}">На главную</a>
+</body>
+<!-- {% endblock %} -->
+

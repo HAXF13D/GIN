@@ -1,0 +1,386 @@
+
+body{
+	margin: 0px;
+	zoom: 50%;
+	background-image: url("backreg.png");
+	background-attachment:fixed;
+	background-position: center;
+	background-size: 2617px 1300px;
+}
+#prev{
+	margin: 0px;
+	width: 2617px;
+	height: 1300px;
+	background-color: black;
+	background-image: url("backlogo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#text1{
+	position: absolute;
+	left: 1026px;
+	top: 30px;
+	width: 128px;
+	height: 28px;
+	font-family: Comfortaa;
+	font-style: Bold;
+	font-size: 25px;
+	line-height: 28px;
+	line-height: 100%;
+	align: Center;
+	vertical-align: Top;
+	fill: Solid;
+	color:#7ed957;
+	display: inline;
+}
+#text2{
+	position: absolute;
+	left: 1254px;
+	top: 30px;
+	width: 123px;
+	height: 28px;
+	font-family: Comfortaa;
+	font-style: Bold;
+	font-size: 25px;
+	line-height: 28px;
+	line-height: 100%;
+	align: Center;
+	vertical-align: Top;
+	fill: Solid;
+	color:#7ed957;
+	display: inline;
+}
+#text3{
+	position: absolute;
+	left: 1477px;
+	top: 30px;
+	width: 151px;
+	height: 28px;
+	font-family: Comfortaa;
+	font-style: Bold;
+	font-size: 25px;
+	line-height: 28px;
+	line-height: 100%;
+	align: Center;
+	vertical-align: Top;
+	fill: Solid;
+	color:#7ed957;
+	display: inline;
+}
+.name{
+	position: absolute;
+	left: 122px;
+	top: 262px;
+	width: 603px;
+	height: 162px;
+	font-size: 50px;
+	font-family: Cheque;
+	color: #7ed957;
+}
+.discription{
+	position: absolute;
+	left: 122px;
+	top: 434px;
+	width: 545px;
+	height: 195px;
+	font-family: Comfortaa;
+	font-style: Regular;
+	font-size: 35px;
+	Line-height: 39px;
+	Line-height: 100%;
+	Align: Left;
+	Vertical-align: Top;
+	Fill: Solid;
+	color: #ffde59;
+}
+.logo{
+	position: absolute;
+	left: 965px;
+	top: 381px;
+	width: 688px;
+	height: 520px;
+}
+#registration{
+	position: absolute;
+	left: 1043px;
+	top: 1454px;
+	width: 547px;
+	height: 700px;
+	border-radius: 64px;
+	fill: Solid;
+	background-color: rgba(255, 222, 89, 0.5);
+}
+.yourinf{
+	width:459px;
+	height:92px;
+	font-size: 40px;
+	font-family: Cheque;
+	font-style: Regular;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 40px;
+	position: absolute;
+	left:24px;
+	right:1299px;
+	border-radius: 30px;
+	background-color:#ffde59;
+	text-align: center;
+	
+}
+#login{
+	width: 485px;
+	height: 92px;
+	position: absolute;
+	left: 24px;
+	top: 200px;
+	border-radius: 30px;
+	font-size: 40px;
+	font-family: Comfortaa;
+	font-style: Regular;
+	background-color: #ACF68C;
+}
+#password{
+	width: 485px;
+	height: 92px;
+	position: absolute;
+	left: 24px;
+	top: 330px;
+	border-radius: 30px;
+	font-size: 40px;
+	font-family: Comfortaa;
+	font-style: Regular;
+	background-color: #ACF68C;
+}
+.enter{
+	width: 310px;
+	height: 65px;
+	position: absolute;
+	left: 124px;
+	top: 450px;
+	border-radius: 30px;
+	font-size: 40px;
+	font-family: Comfortaa;
+	font-style: Regular;
+	background-color: #7ed957;
+}
+.reg{
+	width: 310px;
+	height: 65px;
+	position: absolute;
+	left: 124px;
+	top: 550px;
+	border-radius: 30px;
+	font-size: 40px;
+	font-family: Comfortaa;
+	font-style: Regular;
+	background-color: #FFDE59;
+}
+#messg{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left:642px;
+	top: 2500px;
+	font-family: Comfortaa;
+	font-size: 35px;
+	color: #000000;
+	background-color: #FFDE59;
+	border-radius: 64px;
+	text-align: center;
+}
+.messg{
+	width: 116px;
+	height: 115px;
+	position: absolute;
+	left:142px;
+	top:23px;
+}
+.mes{
+	position:absolute;
+	left: 0px;
+	top: 161px;
+}
+#otzv{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left:1140px;
+	top: 2500px;
+	font-family: Comfortaa;
+	font-size: 35px;
+	color: #000000;
+	background-color: #7ed957;
+	border-radius: 64px;
+	text-align: center;
+}
+.otzv{
+	width: 116px;
+	height: 115px;
+	position: absolute;
+	left:142px;
+	top:23px;
+}
+.otz{
+	position:absolute;
+	left: 0px;
+	top: 161px;
+}
+#ask{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left:1638px;
+	top: 2500px;
+	font-family: Comfortaa;
+	font-size: 35px;
+	color: #000000;
+	background-color: #FFDE59;
+	border-radius: 64px;
+	text-align: center;
+}
+.ask{
+	width: 116px;
+	height: 115px;
+	position: absolute;
+	left:142px;
+	top:23px;
+}
+.as{
+	position:absolute;
+	left: 0px;
+	top: 161px;
+}
+#mesBut{
+	width: 300px;
+	height: 65px;
+	position:absolute;
+	left: 50px;
+	top: 320px;
+	background-color: #7ed957;
+	border-radius: 48px;
+}
+.mesBut{
+	width: 150px;
+	height:11px;
+	position:absolute;
+	left:75px;
+	top:27px;
+	background-color: #FFDE59;
+	border-radius: 48px;
+}
+#otzBut{
+	width: 300px;
+	height: 65px;
+	position:absolute;
+	left: 50px;
+	top: 320px;
+	background-color: #FFDE59;
+	border-radius: 48px;
+}
+.otzBut{
+	width: 150px;
+	height:11px;
+	position:absolute;
+	left: 75px;
+	top: 27px;
+	background-color: #7ed957;
+	border-radius: 48px;
+}
+#askBut{
+	width: 300px;
+	height: 65px;
+	position:absolute;
+	left: 50px;
+	top: 320px;
+	background-color: #7ed957;
+	border-radius: 48px;
+}
+.askBut{
+	width: 150px;
+	height:11px;
+	position:absolute;
+	left:75px;
+	top:27px;
+	background-color: #FFDE59;
+	border-radius: 48px;
+}
+#ourContacts{
+	width:217px;
+	height:78px;
+	position: absolute;
+	left:1900px;
+	top:3050px;
+	color: #F752E0;
+	font-family:Comfortaa;
+	font-size: 35px;
+}
+#whatsapp{
+	width:80px;
+	height: 80px;
+	position: absolute;
+	left: 1776px;
+	top: 3207px;
+	border-radius: 180px;
+	background-color: #FFDE59;
+}
+.whatsapp{
+	width: 59px;
+	height: 59px;
+	position:absolute;
+	left:11px;
+	top:10px;
+}
+#vk{
+	width:80px;
+	height: 80px;
+	position: absolute;
+	left: 1896px;
+	top: 3207px;
+	border-radius: 180px;
+	background-color: #FFDE59;
+}
+.vk{
+	width: 59px;
+	height: 59px;
+	position:absolute;
+	left:11px;
+	top:10px;
+}
+#telegram{
+	width:80px;
+	height: 80px;
+	position: absolute;
+	left: 2016px;
+	top: 3207px;
+	border-radius: 180px;
+	background-color: #FFDE59;
+}
+.telegram{
+	width: 59px;
+	height: 59px;
+	position:absolute;
+	left:11px;
+	top:10px;
+}
+#autor{
+	color:#F752E0;
+	font-size:20px;
+	font-family:Comfortaa;
+	position: absolute;
+	left:1205px;
+	top:3350px;
+}
+
+
+@font-face { 
+	font-family: "Comfortaa"; 
+	src: url("Comfortaa.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+@font-face { 
+	font-family: "Cheque"; 
+	src: url("Cheque.otf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}  

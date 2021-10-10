@@ -1,0 +1,217 @@
+body{
+	margin:0px;
+	background-image: url("backImg.png");
+	background-position: center;
+	background-size: 2617px 1300px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	zoom: 55%;
+}
+#logo{
+	width:256px;
+	height: 192px;
+	position: absolute;
+	left:1032px;
+	top:25px;
+}
+#sortFields{
+	width:500px;
+	height:607px;
+	position:absolute;
+	left:323px;
+	top:241px;
+	background-color:#7ED957;
+	border-radius:30px;
+	font-family:Comfortaa;
+	font-size:35px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:100px;
+
+}
+.sortFields{
+	width:440px;
+	height:457px;
+	position:absolute;
+	left:30px;
+	top:110px;
+	background-color:#7ED957;
+	font-family:Comfortaa;
+	font-size:35px;
+	border: none;
+}
+#opt{
+	width:440px;
+	height:80px;
+	background-color:#FFDE59;
+	border-radius:30px;
+	margin-bottom:10px;
+	margin-top:10px;
+	font-family:Comfortaa;
+	font-size:25px;
+	text-align:center;
+}
+#if{
+	background-color:#7ED957;
+	border-radius:30px;
+	width:500px;
+	height:80px;
+	position:absolute;
+	left:910px;
+	top:241px;
+	font-family:Comfortaa;
+	font-size:35px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:80px;
+}
+#ifText{
+	width:500px;
+	height:504px;
+	position: absolute;
+	left:910px;
+	top:344px;
+	background-color:#7ED957;
+	border-radius: 30px;
+}
+.ifText{
+	width:436px;
+	height:440px;
+	position: absolute;
+	left:32px;
+	top:32px;
+	background-color:#FFDE59;
+	border-radius:30px;
+	font-family:Comfortaa;
+	font-size:25px;
+	text-align:left;
+	vertical-align:top;
+	line-height:100px;
+	border: none;
+}
+#sortType{
+	width:500px;
+	height:226px;
+	position:absolute;
+	left:1497px;
+	top:241px;
+	background-color:#7ED957;
+	border-radius:30px;
+	font-family:Comfortaa;
+	font-size:25px;
+	text-align:left;
+	vertical-align:top;
+	line-height:100px;	
+}
+.sortType{
+	width:440px;
+	height:80px;
+	position:absolute;
+	left:30px;
+	top:105px;
+	background-color:#FFDE59;
+	border-radius:30px;
+	font-family:Comfortaa;
+	font-size:35px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:80px;
+}
+#chooseFile{
+	width:410px;
+	height:152px;
+	position:absolute;
+	left:605px;
+	top:876px;
+	background-color:#FFDE59;
+	border-radius:30px;
+	font-family:Comfortaa;
+	font-size:35px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:150px;
+	z-index: 1;
+}
+.chooseFile{
+	position:absolute;
+	left:30px;
+	top:60px;
+	width:410px;
+	height:152px;
+	margin-left:45px;
+	margin-top:0px;
+	z-index: 10;
+	opacity:0;
+}
+#subFile{
+	width:410px;
+	height:152px;
+	position:absolute;
+	left:605px;
+	top:1076px;
+	background-color:#FFDE59;
+	border-radius:30px;
+	font-family:Comfortaa;
+	font-size:25px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:150px;
+	z-index: 1;
+}
+#download{
+	width:410px;
+	height:152px;
+	position:absolute;
+	left:1305px;
+	top:876px;
+	background-color:#FFDE59;
+	border-radius:30px;
+	font-family:Comfortaa;
+	font-size:35px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:80px;
+}
+#fileListHead{
+	width:1110px;
+	height:80px;
+	position:absolute;
+	left:606px;
+	top:1270px;
+	background-color:#7ED957;
+	border-radius:30px;
+	font-family:Comfortaa;
+	font-size:35px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:80px;
+}
+#fileList{
+	width:1390px;
+	height:223px;
+	position:absolute;
+	left:465px;
+	top:1360px;
+	background-color:rgba(255, 222, 89, 0.6);
+	border-radius:30px;
+	font-family:Comfortaa;
+	font-size:35px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:80px;
+}
+
+
+
+@font-face { 
+	font-family: "Comfortaa"; 
+	src: url("Comfortaa.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+@font-face { 
+	font-family: "Cheque"; 
+	src: url("Cheque.otf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}  

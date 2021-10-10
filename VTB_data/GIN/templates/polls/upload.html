@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<head>
+	<link rel="stylesheet" href="{% static 'authStyle.css' %}">
+</head>
+<!-- {% block content %} -->
+<body>
+<div id="discription">
+<h2>Upload</h2>
+<form class="name" method="post" enctype="multipart/form-data" action="upload" >
+    {% csrf_token %}
+    <div style="width: 100%; text-align:left">
+    <input type="file" name="doc">
+    <button class="messg" type="submit" style = "height: 100px; width: 200px">Загрузить датасет</button>
+    </div>
+</form>
+    {% if url %}
+        <p>Ваш файл: <a href="{{ url }}"> {{ url }}</a></p>
+    {% endif %}
+    <div style="width: 100%; text-align:center">
+    <a class ="reg" href="{% url 'begin' %}">Назад</a>
+    </div>
+    <div style="width: 100%; text-align:center">
+    <a class ="enter" href="{% url 'home' %}">На главную</a>
+    </div>
+
+</div>
+</body>
+<!-- {% endblock %} -->

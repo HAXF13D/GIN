@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+{% load static %}
+{% load index %}
+
+<html>
+	<head>
+		<link rel="stylesheet" href="{% static 'main.css' %}">
+	</head>
+	<body>
+		<img id="logo" src="{% static 'logo.png' %}">
+		<div id="sortFields">
+			Поля сортировки:
+			<select class="sortFields" name="sortFields" size="5">
+				{% for elem in fields %}
+					<option id="opt">{{ elem }}</option>
+				{% endfor %}
+			</select>
+		</div>
+		<div id="if">
+			Условие выбора:
+		</div>
+		<div id="ifText">
+			<input class="ifText" type="Text" name="ifText" value="Текст условия">
+		</div>
+		<div id="sortType">
+			Сортировать по:
+			<select class="sortType" name="sortType">
+				<option value="vozrast">По возрастанию</option>
+				<option value="ubiv">По убыванию</option>
+			</select>
+		</div>
+		<form method="post" enctype="multipart/form-data" action="sorting" >
+
+			<div id="chooseFile">
+				Загрузить файл
+				<input class="chooseFile" name="doc" type="file">
+			</div>
+			{% csrf_token %}
+			<input id="subFile" name="submit" type="submit" value="Подтвердить загрузку">
+		</form>
+		<form method="get" action="{{ files }}">
+			<div align="center">
+				<a id="download" name="download" style="text-decoration: none; text-align: center; display: block" href="{{ url }}"> Скачать dataset </a>
+			</div>
+		</form>
+		<div id="fileListHead">
+			Текущий файл:
+		</div>
+		<input id="fileList" name="fileList" type="text" readonly value="{{files}}">
+
+	</body>
+</html>

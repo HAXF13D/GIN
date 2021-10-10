@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<img id="logo" src="logo.png">
+		<div id="sortFields">
+			Поля сортировки:
+			<select class="sortFields" name="sortFields" size="5">
+				<option id="opt">Какое-то поле</option>
+				<option id="opt">Какое-то поле</option>
+				<option id="opt">Какое-то поле</option>
+			</select>
+		</div>
+		<div id="if">
+			Условие выбора:
+		</div>
+		<div id="ifText">
+			<input class="ifText" type="Text" name="ifText" value="Текст условия">
+		</div>
+		<div id="sortType">
+			Сортировать по:
+			<select class="sortType" name="sortType">
+				<option value="vozrast">По возрастанию</option>
+				<option value="ubiv">По убыванию</option>
+			</select>
+		</div>
+		<div id="chooseFile">
+			Загрузить файл
+			<input class="chooseFile" name="chooseFile" type="file" value="">
+		</div>
+		<input id="download" name="download" type="button" value="Скачать dataset">
+		<div id="fileListHead">
+			Список файлов:
+		</div>
+		<input id="fileList" name="fileList" type="text">
+	</body>
+</html>

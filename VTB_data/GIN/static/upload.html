@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+
+<head>
+	<link rel="stylesheet" href="{% static 'authStyle.css' %}">
+</head>
+<!-- {% block content %} -->
+<body>
+<h2>Upload</h2>
+<form method="post" enctype="multipart/form-data" action="upload">
+    {% csrf_token %}
+    <input type="file" name="doc">
+    <button type="submit">Загрузить датасет</button>
+</form>
+    {% if url %}
+        <p>Ваш файл: <a href="{{ url }}"> {{ url }}</a></p>
+    {% endif %}
+    <a class ="p-2 text-dark" href="{% url 'begin' %}">Назад</a>
+    <a class ="p-2 text-dark" href="{% url 'home' %}">На главную</a>
+</body>
+<!-- {% endblock %} -->

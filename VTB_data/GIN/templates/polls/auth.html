@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+{% load static %}
+
+<head>
+	<link rel="stylesheet" href="{% static 'authStyle.css' %}">
+</head>
+<body>
+	<div id="prev">
+		<div id="contacts">
+			<p id="text1">Eng/Rus</p>
+			<p id="text2">Отзывы</p>
+			<p id="text3">Контакты</p>
+		</div>
+		<div id="discription">
+			<p class="name">GIN - УДОБСТВО В ПРОСТОТЕ</p>
+			<p class="discription">
+				Здесь вы сможете работать с наборами
+				информации при помощи уникальных фильтров
+				и сортировок
+			</p>
+			<img class="logo" src="{% static 'logo.png' %}"/>
+		</div>
+	</div>
+	<form method="post"  action="sorting" >
+	{% csrf_token %}
+	<div id="registration">
+		<p class="yourinf">ВАШИ ДАННЫЕ</p>
+		<input id="login" type="text" name="email" value=" Email">
+		<input id="password" type="password" name="passwd" value=" Пароль">
+		<input class="enter" type="submit" method="POST" name="Enter" value="Вход" >
+		<input class="reg" type="button" method="POST" name="Enter" value="Регистрация">
+	</div>
+	</form>
+	<div id="messg">
+		<img class="messg" src="{% static 'messg.png' %}">
+		<p class="mes">Оставьте свой отзыв здесь</p>
+		<div id="mesBut">
+			<div class="mesBut">
+			</div>
+		</div>
+	</div>
+	<div id="otzv">
+		<img class="otzv" src="{% static 'ok.png' %}">
+		<a class="otz"  style="text-decoration: none" href="{% url 'about-project' %}">Узнайте о возможностях сайта</a>
+		<div id="otzBut">
+			<div class="otzBut">
+			</div>
+		</div>
+	</div>
+	<div id="ask">
+		<img class="ask" src="{% static 'ask.png' %}">
+		<p class="as">Остались вопросы? Пишите нам!</p>
+		<div id="askBut">
+			<div class="askBut">
+			</div>
+		</div>
+	</div>
+	<p id="ourContacts">Наши контакты</p>
+	<div id="whatsapp">
+		<img class="whatsapp" src="{% static 'whatsapp.png' %}">
+	</div>
+	<div id="vk">
+		<img class="vk" src="{% static 'vk.png' %}">
+	</div>
+	<div id="telegram">
+		<img class="telegram" src="{% static 'telegram.png' %}">
+	</div>
+	<p id="autor">Создатель "Выход есть" &copy;</p>
+</body>
